@@ -4,6 +4,8 @@ Development environment using Borland's Turbo C compiler.
 
 ![Screenshot of Turbo C IDE](img/dosbox-tc.jpg)
 
+![Screenshot of Turbo C IDE](img/dosbox-fibo.jpg)
+
 ## Usage
 
 Install [DOSBox](https://www.dosbox.com/) and mount the `ROOT` folder as your C-drive.
