@@ -39,4 +39,4 @@ def convert_image_to_vga_binary(input_image_path, palette, output_bin_path):
 
 # === USAGE ===
 vga_palette = extract_vga_palette("vga_palette.png")
-convert_image_to_vga_binary("pal_200h.png", vga_palette, "VGATEST.BIN")
+convert_image_to_vga_binary("birds.png", vga_palette, "VGATEST.BIN")
