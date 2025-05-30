@@ -10,6 +10,9 @@ int main() {
     c = b;	/* store temporarily */
     b += a;
     a = c;
-    printf("%i  %i\n", i, b);
+    printf("%u  %u\n", i, b);
   }
-}
+  printf("Done!\n");
+
+  return 0;
+}

@@ -1,0 +1,10 @@
+fibo.exe: fibo.obj
+  tlink fibo, fibo.exe,, c:\tc\lib\c0l.obj + c:\tc\lib\cl.lib
+
+fibo.obj: fibo.c
+  tcc -c -ml fibo.c
+
+clean:
+  del *.exe
+  del *.obj
+  del *.map
