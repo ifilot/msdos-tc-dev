@@ -1,0 +1,10 @@
+vga.exe: vga.obj
+  tlink vga, vga.exe,, c:\tc\lib\c0l.obj + c:\tc\lib\cl.lib
+
+vga.obj: vga.c
+  tcc -c -ml vga.c
+
+clean:
+  del *.exe
+  del *.obj
+  del *.map
